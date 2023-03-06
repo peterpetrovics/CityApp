@@ -42,7 +42,7 @@ public class City extends AppCompatActivity {
         //Hozzáadjuk a menühöz az 5db várost
         spinner = findViewById(R.id.spinner);
         String[] arraySpinner = new String[] {
-                "Nincs elem kiválasztva","Debrecen", "Budapest", "Pécs", "Miskolc", "Sopron"
+                "Nincs város kiválasztva","Debrecen", "Budapest", "Pécs", "Miskolc", "Sopron"
         };
         ArrayAdapter<String> adapter = new ArrayAdapter<>(this, android.R.layout.simple_spinner_item, arraySpinner);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_item);
