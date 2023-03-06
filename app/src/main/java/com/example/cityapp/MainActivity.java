@@ -32,6 +32,8 @@ public class MainActivity extends AppCompatActivity {
                     username.getText().clear();
                     password.getText().clear();
                 }
+
+                //Hibás adat kezelése
                 else if (password.getText().toString().equals("") || username.getText().toString().equals("")) {
                     Toast.makeText(MainActivity.this, "Add meg az alábbi adatokat!", Toast.LENGTH_SHORT).show();
                 }
